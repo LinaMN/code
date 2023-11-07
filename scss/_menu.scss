@@ -87,7 +87,7 @@
             @include transition-ease;
 
             &.open {
-                transform: translateY(0);
+                transform: translateX(0);
             }
 
             &.active > a {
@@ -107,5 +107,11 @@
               color: $secondary-color;  
             }
         }
+    }
+}
+
+@for $i from 1 through 4 {
+    .menu-nav__item:nth-child(#{$i}){
+        transition-delay: ($i * 0.1s) + 0.15s;
     }
 }
