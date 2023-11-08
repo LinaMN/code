@@ -311,6 +311,9 @@
   .nav .menu-nav__link {
     font-size: 1.5rem;
   }
+  .about__bio {
+    font-size: 1.5rem;
+  }
 }
 body {
   background: #272727;
