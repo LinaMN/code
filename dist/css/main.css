@@ -326,6 +326,15 @@
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .feature__bio-image {
+    height: 40vh;
+  }
+  .feature__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature .text-secondary {
+    font-size: 3rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .projects__items {
