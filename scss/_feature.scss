@@ -9,7 +9,7 @@
             linear-gradient(to right,
                 rgba($primary-color, 0.9),
                 rgba($primary-color, 0.3)),
-            url('../img/project-4.jpg') center top;
+            url('../img/project-3.jpg') center top;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -40,35 +40,12 @@
 
     &__item {
         position: relative;
-        border-bottom: 5px solid $secondary-color;
         overflow: hidden;
-        cursor: pointer;
+        
 
         img {
             width: 100%;
         }
-
-        &::after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background: $secondary-color;
-            opacity: 0;
-            @include transition-ease;
-        }
-
-        &:hover {
-            &::after {
-                top: 0;
-                opacity: 0.9;
-            }
-
-            .projects__btn {
-                opacity: 1;
-            }
         }
     }
 
@@ -82,5 +59,3 @@
         transform:
             rotate(90deg) translate(-3rem, -5rem);
     }
-
-}
