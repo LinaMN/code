@@ -67,6 +67,12 @@
 .contact__list {
      grid-template-columns: repeat(3, 1fr);
  }
+ .feature {
+
+     &__items {
+         grid-template-columns: repeat(3, 1fr);
+     }
+ }
 }
 
 @include media-xl {
