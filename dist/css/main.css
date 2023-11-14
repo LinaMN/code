@@ -218,7 +218,7 @@
   cursor: pointer;
 }
 .projects__item img {
-  width: 100%;
+  width: 90%;
 }
 .projects__item::after {
   content: "";
